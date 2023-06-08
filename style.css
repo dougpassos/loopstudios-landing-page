@@ -1,6 +1,4 @@
-* {
-  --pri-white: hsl(0, 0%, 100%);
-  --pri-black: hsl(0, 0%, 0%);
-  --pri-dark-gray: hsl(0, 0%, 55%);
-  --pri-very-dark-gray: hsl(0, 0%, 41%);
-}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
