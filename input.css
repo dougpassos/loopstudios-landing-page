@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .div-leader-dkt {
+    @apply bg-white w-[60%] max-h-[45%] pt-8 px-28 mb-1 absolute z-10 flex flex-col justify-center items-center;
+  }
+
+  .p-img-creations-dkt {
+    @apply absolute z-10 -mt-14 px-4 text-white text-2xl shadow-gray-500 uppercase break-all;
+  }
+}
