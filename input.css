@@ -4,7 +4,9 @@
 
 @layer utilities {
   .div-leader-dkt {
-    @apply bg-white w-[60%] max-h-[45%] pt-8 px-28 mb-1 absolute z-10 flex flex-col justify-center items-center;
+    @apply bg-white pt-8 px-28 mb-1 absolute z-10 flex flex-col justify-center items-center;
+    width: 60%;
+    max-height: 45%;
   }
 
   .p-img-creations-dkt {
